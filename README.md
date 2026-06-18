@@ -2,7 +2,7 @@
 
 Interface web do sistema de prontuário eletrônico **ProntoMed**, construída com **React + TypeScript + Vite**.
 
-> O backend desta aplicação está disponível em [prontomed-api](https://github.com/devmlima/prontomed-api).
+> Backend disponível em [prontomed-api](https://github.com/devmlima/prontomed-api) — deploy em produção: [prontomed-api-production.up.railway.app](https://prontomed-api-production.up.railway.app)
 
 ---
 
