@@ -1,0 +1,105 @@
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.logo {
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+  font-style: italic;
+  color: #e4007c;
+  letter-spacing: -1px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px;
+  gap: 2px;
+}
+
+.navItem {
+  display: block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.navItem:hover {
+  background: #fff0f7;
+  color: #e4007c;
+}
+
+.navItem.active {
+  background: #fff0f7;
+  color: #e4007c;
+  font-weight: 600;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  padding: 0 32px;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  flex-shrink: 0;
+}
+
+.doctorName {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.signOut {
+  background: none;
+  border: 1.5px solid #e4007c;
+  color: #e4007c;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.signOut:hover {
+  background: #e4007c;
+  color: #fff;
+}
+
+.main {
+  flex: 1;
+  padding: 32px;
+  overflow-y: auto;
+}

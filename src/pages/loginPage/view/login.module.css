@@ -1,0 +1,133 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 800;
+  color: #e4007c;
+  font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+.field input {
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 11px 14px;
+  font-size: 14px;
+  color: #1a1a1a;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fafafa;
+}
+
+.field input:focus {
+  border-color: #e4007c;
+  background: #fff;
+}
+
+.field input::placeholder {
+  color: #bbb;
+}
+
+.error {
+  font-size: 13px;
+  color: #e4007c;
+  background: #fff0f7;
+  border: 1px solid #fbc8e2;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+.submit {
+  background: #e4007c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  margin-top: 4px;
+}
+
+.submit:hover:not(:disabled) {
+  background: #c4006a;
+}
+
+.submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 24px;
+  font-size: 13px;
+  color: #888;
+}
+
+.toggle {
+  background: none;
+  border: none;
+  color: #e4007c;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.toggle:hover {
+  color: #c4006a;
+}
